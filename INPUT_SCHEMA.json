@@ -1,0 +1,19 @@
+{
+    "title": "Actor input schema for Amazon Searcher",
+    "description": "This is actor input schema for the Amazon Searcher",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+      "keyword": {
+        "title": "Searched keyword",
+        "type": "string",
+        "description": "The searched keyword on amazon website",
+        "default": "phone",
+        "editor": "textfield",
+        "minLength": 2
+      }
+    },
+    "required": [
+      "keyword"
+    ]
+  }
